@@ -2,3 +2,8 @@ sudo docker build -t bot-envato-app . && sudo docker run -d --name bot-envato-ap
 sudo docker logs f0d -f
 sudo docker exec -it f0d bash
 sudo docker stop e1c && sudo docker rm e1c
+
+docker build -t bot-envato-app . && docker run -d --name bot-envato-app-container
+
+docker build -t bot-envato-app . && docker run -d --name bot-envato-app-container bot-envato-app
+
